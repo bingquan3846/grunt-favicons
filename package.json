@@ -1,0 +1,60 @@
+{
+  "name": "grunt-favicons",
+  "description": "Generate favicon.ico and icons for iOS, Android, Windows and Firefox (OS)",
+  "version": "0.8.0",
+  "homepage": "https://github.com/gleero/grunt-favicons",
+  "author": {
+    "name": "Vladimir Perekladov",
+    "email": "gleero@gmail.com",
+    "url": "http://gleero.com/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/gleero/grunt-favicons.git"
+  },
+  "bugs": {
+    "url": "https://github.com/gleero/grunt-favicons/issues"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/gleero/grunt-favicons/blob/master/LICENSE-MIT"
+    }
+  ],
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "dependencies": {
+    "cheerio": "~1.0.0-rc.12",
+    "sync-exec": "^0.6.1"
+  },
+  "devDependencies": {
+    "grunt-contrib-jshint": "~3.2.0",
+    "grunt-contrib-clean": "~2.0.1",
+    "grunt-contrib-nodeunit": "~5.0.0",
+    "grunt": "^1.6.1",
+    "grunt-contrib-copy": "~1.0.0",
+    "image-size": "~1.0.2",
+    "crypto": "0.0.3"
+  },
+  "peerDependencies": {
+    "grunt": "^1.6.1"
+  },
+  "keywords": [
+    "gruntplugin",
+    "favicon",
+    "icons",
+    "png",
+    "ico",
+    "jpg",
+    "ios",
+    "android",
+    "wp8",
+    "firefox",
+    "firefox os"
+  ]
+}
